@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+	background-color: #68cdd5;
+	font-size: 62.5%;
+}
+.back{
+	margin: 20px 0 0 20px;
+}
+.logo{
+	margin: 100px auto;
+	text-align: center;
+}
+.text{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-size: 2.8em;
+}
+.footer{
+	width: 60%;
+	margin: 100px auto;
+	background-color: red;
+}
+.group{
+	float: left;
+}
+.about{
+	float: right;
+}
