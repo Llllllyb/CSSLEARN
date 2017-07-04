@@ -14,18 +14,22 @@ body{
 }
 .text{
 	width: 60%;
-	margin: 0 auto;
-	text-align: center;
+	margin: 150px auto;
 	color: white;
-	font-size: 2.8em;
+	font-size: 1.8rem;
+	text-align: center;
 }
 .footer{
+	overflow: hidden;
 	width: 60%;
 	margin: 100px auto;
-	background-color: red;
+	text-align: center;
+	font-size: 1.8rem;
+	color: white;
 }
 .group{
 	float: left;
+	text-align: center;
 }
 .about{
 	float: right;
