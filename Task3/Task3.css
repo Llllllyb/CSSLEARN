@@ -17,8 +17,12 @@ body{
 	margin: 150px auto;
 	color: white;
 	font-size: 1.8rem;
+<<<<<<< HEAD
 	/*text-align: center;*/
 	line-height: 30px;
+=======
+	text-align: center;
+>>>>>>> 8f7a3162561556b8dab6eb0671176a18454fbb3e
 }
 .footer{
 	overflow: hidden;
