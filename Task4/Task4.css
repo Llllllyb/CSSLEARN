@@ -39,6 +39,7 @@ main{
 	left: 0;
 	right: 0;
 	background-color: #eff0f4;
+	overflow-x: hidden;
 }
 main .content{
 	height: auto;
@@ -56,6 +57,7 @@ main .content{
 	border: none;
 	padding-left: 8rem;
 	outline: none;
+	box-sizing: border-box;
 }
 .login input[type=text]{
 	background: url(images/mobile.png) no-repeat;
