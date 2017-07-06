@@ -3,6 +3,7 @@ html{
 }
 body{
 	margin: 0;
+	width: 100%;
 }
 header{
 	position: fixed;
@@ -21,8 +22,8 @@ header a{
 }
 header h2{
 	text-align: center;
+	margin: 0 4rem;
 	font-size: 1.6rem;
-	margin: 0;
 	color: #fff;
 }
 .register{
@@ -42,6 +43,7 @@ main{
 main .content{
 	height: auto;
 	font-size: 1.2rem;
+	width: 100%;
 }
 .login{
 	margin: 1rem 0 0 0;
@@ -50,7 +52,6 @@ main .content{
 }
 .login input{
 	font-size: 1.4rem;
-	width:100%;
 	line-height: 5rem;
 	border: none;
 	padding-left: 8rem;
