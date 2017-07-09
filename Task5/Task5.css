@@ -1,0 +1,113 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	margin: 0;
+}
+header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	width: auto;
+	height: 3.2rem;
+	padding: 0.7rem 1rem;
+	background-color: #5fc0cd;
+	line-height: 3.6rem;
+}
+header h2{
+	text-align: center;
+	font-size: 1.6rem;
+	color: white;
+	margin: 0 4rem;
+}
+header a{
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+footer{
+	position: fixed;
+	display: flex;
+	align-items: center;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	/*height: 5rem;*/
+	width: auto;
+	justify-content: space-around;
+	padding: 1rem;
+}
+footer .btn-leave{
+	width: 50%;
+	height: 3.6rem;
+	background-color: white;
+	border-color: #5fc0cd;
+	border-radius: 5px;
+	border-style: solid;
+	margin-right: 1rem;
+	outline: none;
+	font-size: 1.6rem;
+	color: #5fc0cd;
+}
+footer .btn-phonecall{
+	width: 50%;
+	height: 3.6rem;
+	background-color: white;
+	/*border-color: #5fc0cd;
+	border-style: solid;*/
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	font-size: 1.6rem;
+	background-color: #5fc0cd;
+	color: white;
+}
+main{
+	position: absolute;
+	top: 4.6rem;
+	right: 0;
+	left: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: white;
+}
+.content{
+	height: auto;
+	font-size: 1.2rem;
+}
+.user-section{
+	position: relative;
+	width: 100%;
+	height: 16rem;
+	background: url(images/bg.png) no-repeat center;
+	background-size: cover;
+	color: white;
+}
+.user-thumb{
+	position: absolute;
+	left: 2rem;
+	top: 50%;
+	width: 7.4rem;
+	height: 7.4rem;
+	margin-top: -3.7rem;
+}
+.user-thumb img{
+	width: 100%;
+}
+.user-info{
+	position: relative;
+	margin-left: 12rem;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.user-name{
+	font-size: 1.4rem;
+}
+.uesr-pos{
+	font-size: 1.2rem;
+	margin-top: 0.5rem;
+	padding-left: 2rem;
+	background:url(images/position.png) no-repeat left center;
+	background-size: 1.2rem;
+}
