@@ -1,8 +1,12 @@
 html{
 	font-size: 62.5%;
 }
-body{
+body,li,p,ul{
 	margin: 0;
+	padding: 0;
+}
+p,li,ul{
+	list-style: none;
 }
 header{
 	position: fixed;
@@ -10,10 +14,10 @@ header{
 	top: 0;
 	right: 0;
 	width: auto;
-	height: 3.2rem;
+	height: 3rem;
 	padding: 0.7rem 1rem;
 	background-color: #5fc0cd;
-	line-height: 3.6rem;
+	line-height: 3rem;
 }
 header h2{
 	text-align: center;
@@ -35,8 +39,9 @@ footer{
 	bottom: 0;
 	/*height: 5rem;*/
 	width: auto;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
 	padding: 1rem;
+	background-color: white;
 }
 footer .btn-leave{
 	width: 50%;
@@ -65,9 +70,10 @@ footer .btn-phonecall{
 }
 main{
 	position: absolute;
-	top: 4.6rem;
+	top: 4.4rem;
 	right: 0;
 	left: 0;
+	bottom: 4.6rem;
 	overflow-y: auto;
 	overflow-x: hidden;
 	background-color: white;
@@ -79,7 +85,7 @@ main{
 .user-section{
 	position: relative;
 	width: 100%;
-	height: 16rem;
+	height: 14rem;
 	background: url(images/bg.png) no-repeat center;
 	background-size: cover;
 	color: white;
@@ -104,10 +110,51 @@ main{
 .user-name{
 	font-size: 1.4rem;
 }
-.uesr-pos{
+.user-pos{
 	font-size: 1.2rem;
+	line-height: 1.4rem;
 	margin-top: 0.5rem;
-	padding-left: 2rem;
-	background:url(images/position.png) no-repeat left center;
+	padding-left: 1.6rem;
+	background:url(images/position.png) no-repeat left /*center*/;
 	background-size: 1.2rem;
+}
+.user-form-title{
+	font-size: 1.2rem;
+	height: 2rem;
+	padding: 1rem;
+	line-height:2rem;
+	border-bottom: 1px solid #ccc;
+}
+.user-form-title span{
+	border-left: 3px solid #5fc0cd;
+	padding: 0 0.6rem;
+}
+.user-form-list{
+	padding: 0 1rem;
+}
+.user-form-list li{
+	position: relative;
+	font-size: 1.2rem;
+	min-height: 2rem;
+	padding: 1rem;
+	line-height: 2rem;
+	border-bottom: 1px solid #ccc;
+}
+.user-form-tag{
+	display: inline-block;
+	background: url(images/star.png) no-repeat left center;
+	line-height: 2rem;
+	background-size: 1.2rem;
+	padding:0 1.6rem;
+}
+.user-form-label{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 5rem;
+	border-right: 1px solid #ccc;
+	color: #aaa;
+}
+.user-form-item{
+	margin-left: 6rem;
 }
